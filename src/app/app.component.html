@@ -1,0 +1,24 @@
+<!-- 
+    https://www.i18next.com/translation-function/essentials
+    https://www.i18next.com/translation-function/objects-and-arrays
+ -->
+
+<div className="App">
+  <h1>{{ 'title' | i18next: { username: "Chris" } }}</h1>
+  <p>
+    <strong>{{ 'subtext' | i18next }}</strong>
+    <br />
+    <br />
+    {{ 'details.description' | i18next }}
+  </p>
+  <ul>
+    <li
+      *ngFor="let item of 'details.features' | i18next: { returnObjects: true };"
+    >
+      {{item}}
+    </li>
+  </ul>
+  <button (click)="changeLanguage('en')">ENGLISH</button>
+  <button (click)="changeLanguage('es')">SPANISH</button>
+  <button (click)="changeLanguage('fr')">FRENCH</button>
+</div>

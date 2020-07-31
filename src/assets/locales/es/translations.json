@@ -1,0 +1,11 @@
+{
+  "title": "Bienvenido, {{username}}.",
+  "subtext": "Este es un ejemplo de Angular i18n.",
+  "details": {
+    "description": "Este ejemplo utiliza react-i18next y reacciona 16.12. Es compatible con traducciones en inglés, español y francés, que se encuentran en la carpeta de configuraciones regionales públicas y se implementan junto a la aplicación.",
+    "features": [
+      "Captura de idiomas bajo petición utilizando XHR.",
+      "Detección de idioma mediante navegador."
+    ]
+  }
+}

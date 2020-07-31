@@ -1,0 +1,11 @@
+{
+  "title": "Welcome, {{username}}.",
+  "subtext": "This is a Angular i18n example.",
+  "details": {
+    "description": "This example uses react-i18next and react 16.12. It supports english, spanish, and french translations, which are found in the public locales folder and are deployed along side the application.",
+    "features": [
+      "Fetching languages on request using XHR",
+      "Language detection using browser."
+    ]
+  }
+}
